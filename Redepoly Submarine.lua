@@ -9,6 +9,7 @@ end
 
 if self.colorBoolean then
 
+
     if Player.localmapid ~= 979 and Player.localmapid ~= 981 and Player.localmapid ~= 984 then
         if not MIsCasting() then
             Player:Teleport(164)
@@ -59,9 +60,6 @@ if self.colorBoolean then
                 Player:Stop()
             end
         end
-    else
-        d("Not in company workshop")
-        self.colorBoolean = false
     end
 
     if data.currentStep == 1 and IsControlOpen("SelectString") then
