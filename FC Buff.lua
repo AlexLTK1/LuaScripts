@@ -1,3 +1,5 @@
+-- uses numpad
+
 if self.clicked then
     self.colorBoolean = not self.colorBoolean
     if not data.gSkipTalkSet then
