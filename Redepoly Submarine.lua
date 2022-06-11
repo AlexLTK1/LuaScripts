@@ -122,7 +122,6 @@ if self.colorBoolean then
     if IsControlOpen("AirShipExplorationDetail") then
         GetControl("AirShipExplorationDetail"):PushButton(25, 0)
         d("Reassigned Submarine successfully.")
-        data.rStep = data.rStep + 1
         data.currentStep = 2
     end
 
